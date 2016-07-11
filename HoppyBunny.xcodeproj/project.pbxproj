@@ -19,7 +19,8 @@
 		DDEFFDC71D21246C00480E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEFFDC51D21246C00480E6B /* Main.storyboard */; };
 		DDEFFDC91D21246C00480E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEFFDC81D21246C00480E6B /* Assets.xcassets */; };
 		DDEFFDCC1D21246C00480E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEFFDCA1D21246C00480E6B /* LaunchScreen.storyboard */; };
-		DDEFFDD41D21257E00480E6B /* SFX in Resources */ = {isa = PBXBuildFile; fileRef = DDEFFDD31D21257E00480E6B /* SFX */; };
+		DDFF535E1D34536800064C5D /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = DDFF535C1D34536800064C5D /* sfx_flap.caf */; };
+		DDFF535F1D34536800064C5D /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = DDFF535D1D34536800064C5D /* sfx_goal.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,8 @@
 		DDEFFDC81D21246C00480E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDEFFDCB1D21246C00480E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDEFFDCD1D21246C00480E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDEFFDD31D21257E00480E6B /* SFX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SFX; path = ../../../Downloads/SFX; sourceTree = "<group>"; };
+		DDFF535C1D34536800064C5D /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		DDFF535D1D34536800064C5D /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,20 @@
 				DDCC7ECC1D219D2500943F4F /* CGFloat%2BExtensions.swift */,
 				DDEFFDC51D21246C00480E6B /* Main.storyboard */,
 				DDEFFDC81D21246C00480E6B /* Assets.xcassets */,
-				DDEFFDD31D21257E00480E6B /* SFX */,
+				DDFF535B1D34536800064C5D /* SFX */,
 				DDEFFDCA1D21246C00480E6B /* LaunchScreen.storyboard */,
 				DDEFFDCD1D21246C00480E6B /* Info.plist */,
 			);
 			path = HoppyBunny;
+			sourceTree = "<group>";
+		};
+		DDFF535B1D34536800064C5D /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF535C1D34536800064C5D /* sfx_flap.caf */,
+				DDFF535D1D34536800064C5D /* sfx_goal.caf */,
+			);
+			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0BD1C91D22DADC00E19D48 /* GameEffects.sks in Resources */,
+				DDFF535F1D34536800064C5D /* sfx_goal.caf in Resources */,
 				DDEFFDC01D21246C00480E6B /* GameScene.sks in Resources */,
-				DDEFFDD41D21257E00480E6B /* SFX in Resources */,
+				DDFF535E1D34536800064C5D /* sfx_flap.caf in Resources */,
 				DDEFFDCC1D21246C00480E6B /* LaunchScreen.storyboard in Resources */,
 				DD00FBFC1D218A4500D5A344 /* Hero.sks in Resources */,
 				DDEFFDC91D21246C00480E6B /* Assets.xcassets in Resources */,
